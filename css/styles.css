@@ -11,7 +11,8 @@ html {
 }
 
 .font {
-    font-family: cursive; font-size: 20px;
+    font-family: cursive;
+    font-size: 20px;
 }
 
 #logo {
@@ -21,17 +22,19 @@ html {
 h1 {
     border: 2px solid #000000;
     padding: 10px;
-    background-color: antiquewhite;    
+    background-color: bisque;
 }
 
 h2 {
     border: 2px solid #000000;
     padding: 10px;
+    background-color: bisque;
 }
 
 header {
     display: flex;
     align-items: center;
+    background-color: tan;
 }
 
 header nav {
@@ -49,5 +52,25 @@ header nav li {
 }
 
 a {
-    color: 
+    color: red;
+}
+
+footer {
+    background-color: tan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+}
+
+p {
+    max-width: 600px;
+}
+
+.paragraph {
+    max-width: 600px;
 }
